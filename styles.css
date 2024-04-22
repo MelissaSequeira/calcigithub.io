@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 750px;
+    width:100%;
+    background-image: url('bg.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calbox{
+    height: 520px;
+    width: 400px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+    backdrop-filter: blur(40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    color:aliceblue;
+    font-size: 40px;
+    height: 90px;
+    width: 90px;
+    
+    border-radius: 30px;
+}
+input{
+    background-color: transparent;
+    color:aliceblue;
+    font-size: 40px;
+    border-radius: 30px;
+    height: 90px;
+    width:370px;
+}
+.clear{
+    font-size: 20px;
+    color:aliceblue;
+    border-radius: 30px;
+    height: 30px;
+    width:370px;
+}
+.clear:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(191, 136, 206);
+}
+button:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(191, 136, 206);
+}
